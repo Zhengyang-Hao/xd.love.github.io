@@ -29,3 +29,22 @@ ul>li{
 	padding-left: 10px;
 	margin: 2px 0;
 }
+.pager a{
+	border: 1px solid #e1e2e3;
+	text-decoration: none;
+	color: #3388FF;
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;	
+}
+.pager a:hover{
+	border-color: #38f;
+	background: #F2F8FF;
+}
+.pager a.selected{
+	border: none;
+	color: #000;
+	background: initial;}
+div .pager{padding: 2px 0;}
