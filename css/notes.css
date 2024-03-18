@@ -48,3 +48,7 @@ ul>li{
 	color: #000;
 	background: initial;}
 div .pager{padding: 2px 0;}
+img{
+			width: 100%;
+			margin: 1em 0;
+}
