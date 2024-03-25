@@ -2,9 +2,8 @@
 /* CSS Document */
 @font-face {
   font-family: "MyCustomFont";
-  src:url("https://电专.love/Diarystory/汉仪落花诗简.TTF");
+  src:url("./汉仪落花诗简.TTF");
 }
-
 
 icon{
 	display: flex;
@@ -14,7 +13,7 @@ body{
 	margin: 10%;
 	margin-top: 5%;
 	background-color: #eee;
-	font-family: "MyCustomFont", sanserif;
+	font-family: "MyCustomFont",MyCustomFont,sanserif;
 }
 
 h2,h3{
