@@ -20,3 +20,7 @@ body{
 	
 margin: 5%;
 }
+@font-face {
+  font-family: "MyCustomFont";
+  src:url("./汉仪落花诗简.TTF");
+}
