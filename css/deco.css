@@ -2,7 +2,7 @@
 /* CSS Document */
 		button {
     cursor: pointer;
-    font-family: "MyCustomFont", sanserif;
+    font-family: "MyCustomFont",MyCustomFont,sanserif;
     height: 40px;
     line-height: 41px;
     line-height: 40px \9;
@@ -17,7 +17,7 @@
 }
 
 body{
-	font-family: "MyCustomFont", sanserif;
+	font-family: "MyCustomFont",MyCustomFont,sanserif;
 	margin: 5%;
 }
 @font-face {
