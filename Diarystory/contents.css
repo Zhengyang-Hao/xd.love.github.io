@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul>li{
+	border-left: 3px solid #eb8080;
+	padding-left: 10px;
+	margin-top: 2px 0;
+	border-bottom: dashed #ccc;
+}
+li a{
+
+	text-decoration: none;
+	color:black;
+	font-size: 1.5em;
+	
+}
+h1{
+	font-size: 3em;
+}
+.name{
+	float: left;
+	margin-left: 1%;
+	text-align: left;
+	}
+.time{
+	margin-right: 5%;
+	float: right;
+	text-align: right;
+	}

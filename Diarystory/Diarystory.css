@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: "MyCustomFont";
+  src:url("./汉仪落花诗简.TTF");
+}
+
+icon{
+	display: flex;
+		
+}
+body{
+	margin: 10%;
+	margin-top: 5%;
+	background-color: #eee;
+	font-family: "MyCustomFont", sanserif;
+}
+
+h2,h3{
+	font-weight: normal;
+	display: inline-flex;
+	
+	}
+	
+header{
+	margin: auto;
+	border-bottom: dashed #ccc;
+	letter-spacing: 0.1em;
+	}
+
+p{
+	margin: 1em 0;
+	line-height: 1.5;
+	font-size: 1.3em;
+	letter-spacing: 0.1em;
+	text-decoration: underline solid 1px #ddd;
+	text-indent : 48px; 
+}
+
+.container{
+	background:#F8F4E2;
+	width: 90%;
+	margin: 2em auto;
+	padding: 30px;
+	border: 0.2em solid #D5D4CD;
+	
+}
+.container p{
+	margin: 0.5em 0;
+	font-size: 1.1em;
+	
+}
+.luokuan {
+	float: right;
+	min-width: 15em;
+	display: block;
+	text-align: center;
+	font-size: 0.9em;
+}
+.luokuan p{
+	white-space:nowrap;
+}		
+.clearfix::after{
+		content: "";
+		display: block;
+		clear: both;
+	}
