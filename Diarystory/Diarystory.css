@@ -2,8 +2,9 @@
 /* CSS Document */
 @font-face {
   font-family: "MyCustomFont";
-  src:url("./汉仪落花诗简.TTF");
+  src:url("https://电专.love/Diarystory/汉仪落花诗简.TTF");
 }
+
 
 icon{
 	display: flex;
