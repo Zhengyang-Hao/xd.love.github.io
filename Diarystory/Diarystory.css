@@ -4,7 +4,13 @@
   font-family: "MyCustomFont";
   src:url("./汉仪落花诗简.TTF");
 }
-
+@font-face {
+  font-family: "Zapfino";
+  src:url("./Zapfino.ttf");
+}
+a{
+	text-decoration: none;
+}
 icon{
 	display: flex;
 		
@@ -28,15 +34,37 @@ header{
 	letter-spacing: 0.1em;
 	}
 
-p{
+text p{
 	margin: 1em 0;
 	line-height: 1.5;
 	font-size: 1.3em;
 	letter-spacing: 0.1em;
-	text-decoration: underline solid 1px #ddd;
+	text-decoration: underline solid 1px #bbb;
 	text-indent : 48px; 
 }
-
+text .title2{
+	text-align: center;
+	font-size: 2em;
+	line-height: 3em;
+}
+.sentences{
+	margin: auto;
+	width: 90%;
+	text-align: center;
+	font-family: "Zapfino",Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	line-height: 3em;
+	font-size: 2em;
+	font-feature-ligatures: common-ligatures discretionary-ligatures;
+}
+.sentences.translate{
+	width: 40%;
+	float:right;
+	font-family: "MyCustomFont",MyCustomFont,sanserif;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1.3em;
+	white-space: nowrap;
+}
 .container{
 	background:#F8F4E2;
 	width: 90%;
@@ -65,3 +93,23 @@ p{
 		display: block;
 		clear: both;
 	}
+.pager{
+	margin: 2em 0;
+	text-align: center;
+	line-height: 3em;
+	
+}
+.pager a{
+	margin: 0 3px;
+	border: 1px solid #d8d8d8;
+	padding: 5px 10px;
+}
+.pager a:hover{
+	border: 1px solid #ef4238;
+
+}
+.pager a.select{
+	background: #ef4238;
+	color: #fff;
+	border: none;
+}

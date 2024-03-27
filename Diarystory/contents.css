@@ -6,6 +6,7 @@ ul>li{
 	padding-left: 10px;
 	margin-top: 2px 0;
 	border-bottom: dashed #ccc;
+	margin-bottom:1em;
 }
 li a{
 
@@ -27,3 +28,6 @@ h1{
 	float: right;
 	text-align: right;
 	}
+a:hover{
+	color: #ef4238;
+}
