@@ -24,3 +24,7 @@ body{
   font-family: "MyCustomFont";
   src:url("https://电专.love/Diarystory/汉仪落花诗简.TTF");
 }
+@font-face {
+  font-family: "Zapfino";
+  src:url("https://电专.love/Diarystory/Zapfino.ttf");
+}
