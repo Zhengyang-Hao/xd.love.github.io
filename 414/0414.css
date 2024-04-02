@@ -1,14 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 html{
-	background: url("粉红水彩画风格背景@0.5x.jpg") no-repeat center;
-	background-attachment:fixed;
-	background-size: cover;
+	background: url("repeat.jpg") repeat center;
+
+	background-size: 100%;
 }
 .datenumber{margin: 0 20%;}
 .text{
 
-	text-align: ;
+
 	position: sticky;
 	top: 0;
 	
