@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	background: url("repeat.jpg") repeat center;
+overflow-x: hidden;
+	background-size: 100%;
+}
+.datenumber{margin: 0 20%;}
+.text{
+
+
+	position: sticky;
+	top: 0;
+	
+}
+img.datetext{
+	
+	width: 20%;
+}
+.toptop{
+	position: sticky;
+	bottom: 0;
+}
+.toptext{
+	position: sticky;
+	top: 0;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+img.a{padding-left: 0%;}
+img.b{padding-left: 25%;}
+img.c{padding-left: 50%;}
+img.d{padding-left: 75%;}
+
+li{
+	list-style-type:none;
+}
+p.hpbtd{
+	  text-align: center;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-shadow: rgb(161, 213, 252) 0px 1.8px 0px, rgb(161, 213, 252) 1.3px 1.3px 0px, rgb(161, 213, 252) 1.8px 0px 0px, rgb(161, 213, 252) 1.3px -1.3px 0px, rgb(161, 213, 252) 0px -1.8px 0px, rgb(161, 213, 252) -1.3px -1.3px 0px, rgb(161, 213, 252) -1.8px 0px 0px, rgb(161, 213, 252) -1.3px 1.3px 0px;
+ font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+	
+	margin-top: 5.5em;
+}
+p.anmen{
+
+  text-align: justify;
+  letter-spacing: 2px;
+  color: rgb(161, 213, 252);
+  font-size: 1.7em;
+ 	font-weight: bold;
+  font-style: italic;
+	margin-top: 5.5em;
+}
+.hhang{
+	white-space: nowrap;
+}
+.stk{
+	position: sticky;
+	top: 0;
+}
+
+.custom-divideru {
+  display: inline-block;
+  width: 33px;
+  height: 25px;
+  vertical-align: top;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  border-color: rgb(194, 234, 255) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+	position:relative;
+
+	
+}
+.custom-dividerd {
+  display: inline-block;
+  width: 33px;
+  height: 25px;
+  vertical-align: top;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  border-color: rgb(194, 234, 255) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+  transform: scaleY(-1);
+position:relative;
+
+	top:-15px;
+}
+.iconimg{
+	margin: 0 auto;
+	vertical-align: middle; display: block;
+	border: solid 5px rgb(233, 247, 255);
+	border-radius: 20%; 
+}
+
+img.photo{
+	margin: 0 auto;
+vertical-align: middle; 
+	display: block;
+	border: solid 5px rgb(233, 247, 255);
+	border-radius: 20%;
+	width:50%;
+}
+div.benren{
+text-align: center;
+}
+.ty{position: relative;
+	
+top: 5.5em;}
+.gzxt{
+	margin-top: 30%;
+}
+
+
+
+img.gz{
+	width: 60%;
+	border-radius: 50%;
+	border:  dashed 2px green;
+}
+p.gz{
+	text-align: left; 
+	color: rgb(255, 255, 255); 
+	letter-spacing: 5px; 
+	font-size: 2em;
+	padding-left: 10%;
+	text-shadow: rgb(161, 213, 252) 0px 1.8px 0px, rgb(161, 213, 252) 1.3px 1.3px 0px, rgb(161, 213, 252) 1.8px 0px 0px, rgb(161, 213, 252) 1.3px -1.3px 0px, rgb(161, 213, 252) 0px -1.8px 0px, rgb(161, 213, 252) -1.3px -1.3px 0px, rgb(161, 213, 252) -1.8px 0px 0px, rgb(161, 213, 252) -1.3px 1.3px 0px;
+	textShadow: rgb(161, 213, 252) 0 1.8px 0, rgb(161, 213, 252) 1.3px 1.3px 0, rgb(161, 213, 252) 1.8px 0 0, rgb(161, 213, 252) 1.3px -1.3px 0, rgb(161, 213, 252) 0 -1.8px 0, rgb(161, 213, 252) -1.3px -1.3px 0, rgb(161, 213, 252) -1.8px 0 0, rgb(161, 213, 252) -1.3px 1.3px 0 rgb(161,213,252);
+	border-bottom: double;
+	width: 290px;
+}
+  .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .left-panel,
+        .right-panel {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .left-panel img,
+        .right-panel img {
+            width: 80px;
+            height: 80px;
+        
+            cursor: pointer;
+        }
+
+        .bingo {
+            font-size: 24px;
+            color: green;
+        }
+
+        .table {
+            border-collapse: collapse;
+            margin-top: 20px;
+			
+        }
+
+		.table th,
+.table td {
+    border: 1px solid white; /* 将单元格边框颜色设为白色 */
+}
+        .table td {
+           
+            width: 80px;
+            height: 80px;
+            position: relative;
+        }
+
+        .table td img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .table td.has-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            
+            z-index: 1;
+        }
+
+        .table td.placeholder {
+            border: none;
+            background-color: transparent;
+        }
+
+.hhh{
+	text-decoration: none;
+	color: lightcoral;
+	border: double;
+	padding: 0.5em;
+	border-radius: 50%;
+	background-color: #FFB4FC;
+	float: right;
+}
