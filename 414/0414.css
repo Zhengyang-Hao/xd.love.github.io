@@ -159,7 +159,7 @@ p.gz{
         line-height: 1.5;
     }
 
-    .text-container {
+.text-container{
         max-width: 65%;
         margin: 10px 20px;
         padding: 20px;
@@ -181,7 +181,7 @@ p.gz{
 }
 
 
-    .content {
+.content{
         color: black; /* 黑色文字 */
         font-size: 1em;
         text-indent: 2em; /* 首行缩进 */
