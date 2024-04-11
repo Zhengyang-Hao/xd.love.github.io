@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 html{
-	background: url("repeat.jpg") repeat center;
+	background: url("414/repeat.jpg") repeat center;
 overflow-x: hidden;
 	background-size: 100%;
 }
@@ -55,7 +55,7 @@ p.anmen{
   text-align: justify;
   letter-spacing: 2px;
   color: rgb(161, 213, 252);
-  font-size: 1.7em;
+  font-size: 1.6em;
  	font-weight: bold;
   font-style: italic;
 	margin-top: 2.5em;
@@ -122,26 +122,30 @@ text-align: center;
 	
 top: 5.5em;}
 .gzxt{
+	margin-left: 10%;
 	margin-top: 30%;
 }
 
 
 
 img.gz{
+	
 	width: 60%;
 	border-radius: 50%;
 	border:  dashed 2px green;
 }
 p.gz{
+	margin-left: 30%;
 	text-align: left; 
 	color: rgb(255, 255, 255); 
 	letter-spacing: 5px; 
-	font-size: 2em;
+	font-size: 1.4em;
 	padding-left: 10%;
-	text-shadow: rgb(161, 213, 252) 0px 1.8px 0px, rgb(161, 213, 252) 1.3px 1.3px 0px, rgb(161, 213, 252) 1.8px 0px 0px, rgb(161, 213, 252) 1.3px -1.3px 0px, rgb(161, 213, 252) 0px -1.8px 0px, rgb(161, 213, 252) -1.3px -1.3px 0px, rgb(161, 213, 252) -1.8px 0px 0px, rgb(161, 213, 252) -1.3px 1.3px 0px;
-	textShadow: rgb(161, 213, 252) 0 1.8px 0, rgb(161, 213, 252) 1.3px 1.3px 0, rgb(161, 213, 252) 1.8px 0 0, rgb(161, 213, 252) 1.3px -1.3px 0, rgb(161, 213, 252) 0 -1.8px 0, rgb(161, 213, 252) -1.3px -1.3px 0, rgb(161, 213, 252) -1.8px 0 0, rgb(161, 213, 252) -1.3px 1.3px 0 rgb(161,213,252);
+	text-shadow: rgba(161,162,252,1.00) 0px 1.8px 0px, rgb(161,162,252,1.00) 1.3px 1.3px 0px, rgb(161,162,252,1.00) 1.8px 0px 0px, rgb(161,162,252,1.00) 1.3px -1.3px 0px, rgb(161,162,252,1.00) 0px -1.8px 0px, rgb(161,162,252,1.00) -1.3px -1.3px 0px, rgba(161,179,252,1.00) -1.8px 0px 0px, rgba(161,252,233,1.00) -1.3px 1.3px 0px;
+	textShadow: rgb(161,162,252,1.00) 0 1.8px 0, rgb(161,162,252,1.00) 1.3px 1.3px 0, rgb(161,162,252,1.00) 1.8px 0 0, rgb(161,162,252,1.00) 1.3px -1.3px 0, rgb(161,162,252,1.00) 0 -1.8px 0, rgb(161,162,252,1.00) -1.3px -1.3px 0, rgb(161,162,252,1.00) -1.8px 0 0, rgb(161,162,252,1.00) -1.3px 1.3px 0 rgb(161,213,252);
 	border-bottom: double;
-	width: 290px;
+	border-right: double;
+	width: 180px;
 }
 
 .hhh{
@@ -172,26 +176,39 @@ p.gz{
 
 .text-container:nth-child(even){
 	float: left;
-        border-radius: 0 50px 10px 10px;
+        border-radius: 0 50px 10px 50px;
 }
 
 .text-container:nth-child(odd){
 	float: right;
- border-radius: 50px 0 10px 10px;
+ border-radius: 50px 0 50px 10px;
 }
 
 
 .content{
         color: black; /* 黑色文字 */
-        font-size: 1em;
+        font-size: 0.9em;
         text-indent: 2em; /* 首行缩进 */
         margin-bottom: 0px; /* 段落间距 */
     }
 
 .shuming{
 	float: right;
+	 font-size: 0.9em;
 }
-
+.txm{
+	text-align: left; 
+	color: rgb(255, 255, 255); 
+	letter-spacing: 5px; 
+	font-size: 1.2em;
+	padding-left: 5%;
+	text-shadow: rgb(161, 213, 252) 0px 1.8px 0px, rgb(161, 213, 252) 1.3px 1.3px 0px, rgb(161, 213, 252) 1.8px 0px 0px, rgb(161, 213, 252) 1.3px -1.3px 0px, rgb(161, 213, 252) 0px -1.8px 0px, rgb(161, 213, 252) -1.3px -1.3px 0px, rgb(161, 213, 252) -1.8px 0px 0px, rgb(161, 213, 252) -1.3px 1.3px 0px;
+	textShadow: rgb(161, 213, 252) 0 1.8px 0, rgb(161, 213, 252) 1.3px 1.3px 0, rgb(161, 213, 252) 1.8px 0 0, rgb(161, 213, 252) 1.3px -1.3px 0, rgb(161, 213, 252) 0 -1.8px 0, rgb(161, 213, 252) -1.3px -1.3px 0, rgb(161, 213, 252) -1.8px 0 0, rgb(161, 213, 252) -1.3px 1.3px 0 rgb(161,213,252);
+	border-top: double;
+	border-left: double;
+	margin-left: 10%;
+	width: 14em;
+}
 .jiaozhu{
 	margin: 10px 10px 60px 10px;
 	padding: 20px;
