@@ -48,7 +48,7 @@ p.hpbtd{
 	font-style: italic;
 	font-weight: bold;
 	
-	margin-top: 5.5em;
+	margin-top: 3.5em;
 }
 p.anmen{
 
@@ -58,7 +58,7 @@ p.anmen{
   font-size: 1.6em;
  	font-weight: bold;
   font-style: italic;
-	margin-top: 2.5em;
+
 	margin-left: 20px;
 }
 .hhang{
@@ -110,7 +110,7 @@ position:relative;
 img.photo{
 	margin: 0 auto;
 vertical-align: middle; 
-	display: block;
+	display: inline-block;
 	border: solid 5px rgb(233, 247, 255);
 	border-radius: 20%;
 	width:50%;
@@ -120,7 +120,7 @@ text-align: center;
 }
 .ty{position: relative;
 	
-top: 5.5em;}
+top: 4.5em;}
 .gzxt{
 	margin-left: 10%;
 	margin-top: 30%;
@@ -130,6 +130,12 @@ top: 5.5em;}
 
 img.gz{
 	
+	width: 60%;
+	border-radius: 50%;
+	border:  dashed 2px green;
+}
+img.gz2{
+	float: right;
 	width: 60%;
 	border-radius: 50%;
 	border:  dashed 2px green;
@@ -210,10 +216,17 @@ p.gz{
 	width: 14em;
 }
 .jiaozhu{
-	margin: 10px 10px 60px 10px;
+	margin: 10px;
 	padding: 20px;
 	width: 100%;
 	float: right;
 	color:#808080 ;
 	text-align: right;
+}
+.copyright{
+	margin: 10px;
+	padding: 20px;
+	width: 100%;
+	color:#808080;
+	text-align: center;
 }
